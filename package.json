@@ -1,6 +1,6 @@
 {
   "name": "easy-calc-js",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "JavaScript小数点精确计算，解决js小数点计算的问题，js计算",
   "main": "release/easy-calc.js",
   "directories": {
@@ -34,5 +34,5 @@
     "rollup-plugin-babel": "^4.3.2"
   },
   "dependencies": {}
-  
+
 }
