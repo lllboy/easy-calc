@@ -1,0 +1,36 @@
+{
+  "name": "easy-calc-js",
+  "version": "0.0.1",
+  "description": "JavaScript小数点精确计算，解决js小数点计算的问题，js计算",
+  "main": "release/index.js",
+  "directories": {
+    "test": "test"
+  },
+  "keywords": [
+    "calc",
+    "js",
+    "javacript",
+    "浮点数",
+    "小数",
+    "计算",
+    "decimal"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dykily/easy-calc.git"
+  },
+  "author": "fgq",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dykily/easy-calc/issues"
+  },
+  "homepage": "https://github.com/dykily/easy-calc#readme",
+  "devDependencies": {
+    "@babel/core": "^7.3.4",
+    "@babel/preset-env": "^7.3.4",
+    "rollup-plugin-babel": "^4.3.2"
+  }
+}
