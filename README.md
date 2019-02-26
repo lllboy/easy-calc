@@ -9,7 +9,7 @@ easy-calc-js就是解决这种情况的的。
 
 ## 使用
 ### 提示
-目前只有`add` 和 `minus` 两个方法。后续会加入别的计算规则
+目前只有`add` 和 `minus` 两个方法。后续会加入别的计算规则。
 ### node环境使用方式
 ```
 const ec = require("easy-calc-js");
