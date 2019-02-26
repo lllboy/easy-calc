@@ -34,4 +34,5 @@
     "rollup-plugin-babel": "^4.3.2"
   },
   "dependencies": {}
+  
 }
