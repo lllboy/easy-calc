@@ -8,6 +8,8 @@ easy-calc-js就是解决这种情况的的。
 - 使用CDN：[https://unpkg.com/easy-calc-js/release/easy-calc.js](https://unpkg.com/easy-calc-js/release/easy-calc.js)
 
 ## 使用
+### 提示
+目前只有`add` 和 `minus` 两个方法。后续会加入别的计算规则
 ### node环境使用方式
 ```
 const ec = require("easy-calc-js");
