@@ -36,19 +36,21 @@
     _createClass(EasyCalc, [{
       key: "numHandle",
       value: function numHandle(numStr) {
-        var numArr, dotIndex, dotLen;
+        var numArr,
+            dotIndex,
+            dotLen = 0;
         dotIndex = numStr.indexOf(".");
 
         if (0 <= dotIndex) {
           //说明有小数点
           numArr = numStr.split("");
+          dotLen = numArr.length - (dotIndex + 1); //计算小数点后面一共几位数
+
+          numArr.splice(dotIndex, 1);
         } else {
           numArr = numStr.split("");
         }
 
-        dotLen = numArr.length - (dotIndex + 1); //计算小数点后面一共几位数
-
-        numArr.splice(dotIndex, 1);
         return {
           numArr: numArr,
           dotLen: dotLen
@@ -65,7 +67,7 @@
         var numStr2 = new String(num2);
         var objNum1 = this.numHandle(numStr1);
         var objNum2 = this.numHandle(numStr2);
-        var dotDist = objNum1.dotLen - objNum1.dotLen;
+        var dotDist = objNum1.dotLen - objNum2.dotLen;
         var dotLen;
 
         if (0 < dotDist) {
